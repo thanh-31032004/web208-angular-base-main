@@ -10,7 +10,7 @@
 
 <body>
     <div class="container mt-5">
-        <h2 class="mb-4">Thêm Sản Phẩm</h2>
+        <h2 class="mb-4">Sửa Sản Phẩm</h2>
         <form [formGroup]="addForm" (ngSubmit)="updateProduct()">
             <div class="form-group">
                 <label for="title">Tên Sản Phẩm</label>
@@ -31,7 +31,7 @@
                 <input type="checkbox" class="form-check-input" id="showProducts" formControlName="active" checked>
                 <label class="form-check-label" for="showProducts">Hiển Thị Danh Sách Sản Phẩm</label>
             </div>
-            <button type="submit" class="btn btn-primary" [disabled]="addForm.invalid">Thêm Sản Phẩm</button>
+            <button type="submit" class="btn btn-primary" [disabled]="addForm.invalid">Sửa Sản Phẩm</button>
         </form>
     </div>
 

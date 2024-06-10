@@ -15,18 +15,18 @@
       "id": "DaMHPJD"
     },
     {
-      "title": "dfb",
-      "price": 34634,
-      "desc": "4636g",
-      "active": true,
-      "id": "x61EbZ9"
-    },
-    {
       "title": "trntnt",
       "price": 8888,
       "desc": "thhth",
       "active": false,
       "id": "nwN-w0_"
+    },
+    {
+      "title": "rhhhhhh upta",
+      "price": 33333,
+      "desc": "1111",
+      "active": false,
+      "id": "4Mo6dUY"
     }
   ],
   "users": [
@@ -39,6 +39,11 @@
       "email": "d@gamil.com",
       "password": "$2a$10$63I9OkFI4ERQHgF2nC1P/ObJFe32fvH5J5WS/e.CYyF3f18sV4CQC",
       "id": 2
+    },
+    {
+      "email": "tttt@gmail.com",
+      "password": "$2a$10$eXcDQ9tIl3KKXNeBRFi9POTn9KJvl6SNZ4/DJXM9SkZNthMU5Q/JS",
+      "id": 3
     }
   ]
 }
