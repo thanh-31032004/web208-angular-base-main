@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thêm Sản Phẩm</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">Thêm Sản Phẩm</h2>
+        <form [formGroup]="addForm" (ngSubmit)="addProduct()">
+            <div class="form-group">
+                <label for="title">Tên Sản Phẩm</label>
+                <input type="text" class="form-control" id="title" placeholder="Nhập tên sản phẩm"
+                    formControlName="title">
+            </div>
+            <div class="form-group">
+                <label for="price">Giá</label>
+                <input type="number" class="form-control" id="price" placeholder="Nhập giá sản phẩm"
+                    formControlName="price">
+            </div>
+            <div class="form-group">
+                <label for="desc">Mô Tả</label>
+                <textarea class="form-control" id="desc" rows="3" placeholder="Nhập mô tả sản phẩm"
+                    formControlName="desc"></textarea>
+            </div>
+            <div class="form-check mt-4">
+                <input type="checkbox" class="form-check-input" id="showProducts" formControlName="active" checked>
+                <label class="form-check-label" for="showProducts">Hiển Thị Danh Sách Sản Phẩm</label>
+            </div>
+            <button type="submit" class="btn btn-primary" [disabled]="addForm.invalid">Thêm Sản Phẩm</button>
+        </form>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

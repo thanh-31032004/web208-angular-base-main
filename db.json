@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "title": "prd1 update",
+      "price": 325325555,
+      "desc": "tot update",
+      "active": true,
+      "id": "rg"
+    },
+    {
+      "title": "hd update",
+      "price": 345,
+      "desc": "fd",
+      "active": true,
+      "id": "DaMHPJD"
+    },
+    {
+      "title": "dfb",
+      "price": 34634,
+      "desc": "4636g",
+      "active": true,
+      "id": "x61EbZ9"
+    },
+    {
+      "title": "trntnt",
+      "price": 8888,
+      "desc": "thhth",
+      "active": false,
+      "id": "nwN-w0_"
+    }
+  ],
+  "users": [
+    {
+      "email": "tha@gmail.com",
+      "password": "$2a$10$zhK9a/VOscBF6FJnHR9vJe.hOoLVVIai4mYTRhPL.NNIEr3JgWCnq",
+      "id": 1
+    },
+    {
+      "email": "d@gamil.com",
+      "password": "$2a$10$63I9OkFI4ERQHgF2nC1P/ObJFe32fvH5J5WS/e.CYyF3f18sV4CQC",
+      "id": 2
+    }
+  ]
+}
