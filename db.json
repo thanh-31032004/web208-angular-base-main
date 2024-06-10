@@ -1,20 +1,6 @@
 {
   "products": [
     {
-      "title": "prd1 update",
-      "price": 325325555,
-      "desc": "tot update",
-      "active": true,
-      "id": "rg"
-    },
-    {
-      "title": "hd update",
-      "price": 345,
-      "desc": "fd",
-      "active": true,
-      "id": "DaMHPJD"
-    },
-    {
       "title": "trntnt",
       "price": 8888,
       "desc": "thhth",
@@ -27,6 +13,20 @@
       "desc": "1111",
       "active": false,
       "id": "4Mo6dUY"
+    },
+    {
+      "title": "prd3",
+      "price": 453553,
+      "desc": "ggdfg",
+      "active": false,
+      "id": "YcA57G5"
+    },
+    {
+      "title": "prd 2 update",
+      "price": 111111,
+      "desc": "gregregge",
+      "active": true,
+      "id": "-sz2wue"
     }
   ],
   "users": [
@@ -36,14 +36,9 @@
       "id": 1
     },
     {
-      "email": "d@gamil.com",
-      "password": "$2a$10$63I9OkFI4ERQHgF2nC1P/ObJFe32fvH5J5WS/e.CYyF3f18sV4CQC",
+      "email": "thanh123@gmail.com",
+      "password": "$2a$10$TjGAqSW6MtcohQywcKc9Qu15GZ2FWHXj.gdnrw2gS3ywsb3QlBtBS",
       "id": 2
-    },
-    {
-      "email": "tttt@gmail.com",
-      "password": "$2a$10$eXcDQ9tIl3KKXNeBRFi9POTn9KJvl6SNZ4/DJXM9SkZNthMU5Q/JS",
-      "id": 3
     }
   ]
 }
